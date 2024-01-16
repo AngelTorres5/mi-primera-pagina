@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="banner">
+        <video autoplay loop muted plays-inline>
+            <source src="img/Vídeo sin título ‐ Hecho con Clipchamp.mp4" type="video/mp4">
+        </video>
+        <div class="navbar">
+            <div class="titulo1">
+                <h1>Tecnology Shop</h1>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#Inicio">Inicio</a></li>
+                    <li><a href="#Lo nuevo">Lo nuevo</a></li> 
+                    <li><a href="#Productos">Productos</a></li>
+                   <li><a href="#Servicios">Servicios</a></li>
+                   <li><a href="#Sucursales">Sucursales</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+        <div class="content">
+            <h1>EXPLORA NUESTRO MUNDO</h1>
+            <div>
+                <button onclick="inicio()">Explorer</button>
+            </div>
+        </div>
+
+    </div>
+
+<div class="contendedor-padre" id="Lo nuevo"><BR></BR>
+    <h1 class="title">lo nuevo</h1>
+    <div class="container__slider2">
+
+        <div class="container2">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+
+            <div class="cards">
+                <label class="card2" for="item-1" id="selector-1">
+                    <img src="img/Apple-iPhone-15-Pro-Hero-Gear.webp">
+                </label>
+                <label class="card2" for="item-2" id="selector-2">
+                    <img src="img/F51_LERaYAEkgrn.jpeg">
+                </label>
+                <label class="card2" for="item-3" id="selector-3">
+                    <img src="img/iphone_15_pro_max_natural_tita_1695467171_460ccecf_progressive.jpg">
+                </label>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+    <header id="Productos">
+        <h1>Tienda</h1>
+
+        <div class="container-icon">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon-cart"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                />
+            </svg>
+            <div class="count-products">
+                <span id="contador-productos">0</span>
+            </div>
+
+            <div class="container-cart-products hidden-cart">
+                <div class="cart-product">
+                    <div class="info-cart-product">
+                        <span class="cantidad-producto-carrito">1</span>
+                        <p class="titulo-producto-carrito">Iphone</p>
+                        <span class="precio-producto-carrito">$80</span>
+                    </div>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon-close"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M6 18L18 6M6 6l12 12"
+                        />
+                    </svg>
+                </div>
+    
+            </div>
+        </div>
+    </header>
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                <img
+                    src="img/apple-iphone-15-pro-max-6-7-5g-double-sim-1-to-blanc-titanium-3545068_1140x1140.jpeg"
+                    alt="producto"
+                />
+            </figure>
+            <div class="info-product">
+                <h2>Iphone</h2>
+                <p class="price">$1395</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img
+                    src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    alt="producto"
+                />
+            </figure>
+            <div class="info-product">
+                <h2>Audifonos</h2>
+                <p class="price">$20</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img
+                    src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1099&q=80"
+                    alt="producto"
+                />
+            </figure>
+            <div class="info-product">
+                <h2>Reloj</h2>
+                <p class="price">$50</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img
+                    src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                    alt="producto"
+                />
+            </figure>
+            <div class="info-product">
+                <h2>Smartwatch</h2>
+                <p class="price">$90</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img
+                    src="img/3.webp"
+                    alt="producto"
+                />
+            </figure>
+            <div class="info-product">
+                <h2>Monitor </h2>
+                <p class="price">$255</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        
+        <div class="item">
+            <figure>
+                <img
+                    src="img/1.jpg"
+                    alt="producto"
+                />
+            </figure>
+            <div class="info-product">
+                <h2>Audifonos</h2>
+                <p class="price">$350</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <section class="Servicios33" id="Servicios">
+        <div class="titulo">Algunos de nuestros servicios</div>
+
+        <div class="contenedorC">
+            <div class="contenedor1">
+                <img src="img/logo1.png"  width="100px" height="100px" >
+               <div class="nom-product1">
+                <h1>Amazon</h1>
+               </div>
+               <button onclick="nuevaVentana()">Pedir</button>
+            </div>
+            <div class="contenedor2">
+                <img src="img/logo2.png" alt="Descripción de la imagen" class="my-image" width="100px" height="100px" >
+                <div class="nom-product2">
+                    <h1>Pedidios online</h1>
+                   </div>
+                   <button onclick="nuevaVentana2()">Pedir</button>
+            </div>
+            <div class="contenedor3">
+                <img src="img/logo3.png" alt="Descripción de la imagen" class="my-image" width="100px" height="100px" >
+                <div class="nom-product3">
+                    <h1>Globo</h1>
+                   </div>
+                   <button onclick="nuevaVentana3()">Pedir</button>
+
+            </div>
+             
+        </div>
+    </section>
+
+    <section class="sucursales" id="Sucursales"><BR></BR>
+        <div class="titulo">Sucursales</div>
+        <style>
+            .container{
+                position: relative;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                gap: 1em;
+                width: 800px;
+                height: 500px;
+                font-family: sans-serif;
+                transition: all 400ms;
+                margin: auto;
+            }
+    
+            .box{
+                position: relative;
+                background: var(--img)center center;
+                background-size: cover;
+                transition: all 400ms;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 5px 5px 15px rgb(0, 0, 0);
+                margin-top: 190px;
+                border-radius: 10px;
+            }
+    
+            .box::after{
+                content: attr(data-text);
+                position: absolute;
+                bottom: 20px;
+                background: #000;
+                color: #fff;
+                padding: 10px 10px 10px 14px;
+                letter-spacing: 4px;
+                text-transform: uppercase;
+                transform: translateY(60px);
+                opacity: 0;
+                transition: all 400ms;
+            }
+    
+            .container:hover .box{
+                filter: grayscale(100%) opacity(24%);
+            }
+    
+            .container:hover::after{
+                transform: translateY(0);
+                opacity: 1;
+                transition-delay: 400ms;
+            }
+    
+            .container:hover .box{
+                filter: grayscale(0%) opacity(100%);
+            }
+    
+            .container:has(.box-1:hover){
+                grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+            }
+    
+            .container:has(.box-2:hover){
+                grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+            }
+    
+            .container:has(.box-3:hover){
+                grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+            }
+    
+            .container:has(.box-4:hover){
+                grid-template-columns: 1fr 1fr 1fr 3fr 1fr;
+            }
+    
+            .container:has(.box-5:hover){
+                grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
+            }
+    
+            .box:nth-child(odd) {
+                transform: translateY(-16px);
+            }
+    
+            .box:nth-child(even) {
+                transform: translateY(16px);
+            }
+    
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="box box-1" style="--img: url(img/01.jpg);" data="adida">
+                <div class="titulocur">
+                </div>
+            </div>
+            <div class="box box-2" style="--img: url(img/02.jpg);" data="adida" >
+                <div class="titulocur2"></div>
+               
+            </div>      
+            <div class="box box-3" style="--img: url(img/03.jpg);" data="adida">
+                <div class="titulocur3"></div>
+                
+            </div>
+            <div class="box box-4" style="--img: url(img/04.webp);" data="adida">
+                <div class="titulocur4"></div>
+            </div>
+            <div class="box box-5" style="--img: url(img/05.jpg);" data="adida">
+                <div class="titulocur5"></div>
+              
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer"><br>
+       <h1><div class="ultimo_titulo">Puedes contactarnos a nuestras siguientes redes sociales:</div></h1>
+        <div class="wrapper">
+            <ul>
+    
+                <li class="facebook"><a href="https://www.facebook.com"><i class="fa fa-facebook fa-2x"
+                            aria-hidden="true"></i></a></li>
+                <li class="twitter"><a href="https://www.twitter.com"><i class="fa fa-twitter fa-2x"
+                            aria-hidden="true"></i></a></li>
+                <li class="instagram"><a href="https://www.instagram.com"><i class="fa fa-instagram fa-2x"
+                            aria-hidden="true"></i></a></li>
+                <li class="google"><a href="https://www.google.com.sv"><i class="fa fa fa-google fa-2x"
+                            aria-hidden="true"></i></a></li>
+                <li class="whatsapp"><a href="https://wa.me/50369788831"><i class="fa fa-whatsapp fa-2x"
+                            aria-hidden="true"></i></a></li> 
+            </ul>
+        </div>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
